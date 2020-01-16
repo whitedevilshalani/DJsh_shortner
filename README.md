@@ -1,9 +1,9 @@
-# KDShortner
+# shalanishoter
 A php code that helps you to Shorten link in a click in terminal
 Commands for terminal <br>
 $ pkg install php <br>
-$ git clone https://github.com/Dshalani/shalanishortter<br>
-$ cd KDShortner<br>
+$ git clone https://github.com/Dshalani/shalanishorter<br>
+$ cd shalanishoter <br>
 $ ls<br>
 $ php shalanishoter.php <br>
 $ php shalani.php (link) <br>
