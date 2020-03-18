@@ -2,7 +2,7 @@
 A php code that helps you to Shorten link in a click in terminal
 Commands for terminal <br>
 $ pkg install php <br>
-$ git clone https://github.com/Dshalani/shshortner<br>
+$ git clone https://github.com/DJshalani/shshortner<br>
 $ cd shshotner <br>
 $ ls<br>
 $ php shshotner.php <br>
