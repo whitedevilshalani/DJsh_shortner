@@ -6,7 +6,7 @@ $bersih="cls";
 $bersih="clear";
 }
 function input($echo) {
-	echo $echo." --> ";
+        echo $echo." --> ";
 }
 menu:
 system($bersih);
@@ -14,24 +14,21 @@ $green  = "\e[92m";
 $red    = "\e[91m";
 $yellow = "\e[93m";
 $blue   = "\e[36m";
-echo "\n$yellow
- _  ______   ____
-| |/ /  _ \ / ___| ___ _ __
-| ' /| | | | |  _ / _ \ '_ \
-| . \| |_| | |_| |  __/ | | |
-|_|\_\____/ \____|\___|_| |_|\n".$red.
-"Url Shortener";
+echo $green."
+White_Devil@Devilshalani
+Url Shortener\n";
 echo $blue."
 Author  : DJshalani
 Contributer : SpeedX
 Github  : http://github.com/DJshalani/
-Version : 0.1 ( Final )\n";
-echo $red."=========================== KapoorDev ))=====(@)>".$green."\n";
+YouTube : https://m.youtube.com/channel/UCnoOQFgTMTB8dtOR2WO81Hw
+Version : 2020.3\n";
+echo $red."=========================== DJshalani ))=====(@)>".$green."\n";
 if(isset($argv[1])) {
-	$url=$argv[1];
+        $url=$argv[1];
 } else {
-	echo "Usage : php shalani.php www.example.com\n";
-	die();
+        echo "Usage : php shalani.php www.example.com\n";
+        die();
 }
 
 
@@ -65,15 +62,15 @@ curl_close($ch);
 
 
 function getStr2($string, $start, $end) {
-	$str = explode($start, $string);
-	$str = explode($end, $str[1]);
-	return $str[0];
+        $str = explode($start, $string);
+        $str = explode($end, $str[1]);
+        return $str[0];
 }
 $shurl=getStr2($result,'"url_hash":"','"}');
 if(strlen($shurl)<5) {
-	echo "Error Occured!!!!";
-	} else {
-		echo "Link   : ".$url."\n";
-		echo "Result : http://bit.do/".$shurl."\n";
-		}
-echo $red."=========================== KapoorDev ))=====(@)>".$green."\n";
+        echo "Error Occured!!!!";
+        } else {
+                echo "Link   : ".$url."\n";
+                echo "Result : http://bit.do/".$shurl."\n";
+                }
+echo $red."=========================== DJshalani ))=====(@)>".$green."\n";
