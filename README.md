@@ -7,6 +7,7 @@ $ cd shshotner <br>
 $ ls<br>
 $ php shshotner.php <br>
 $ php shalani.php (link) <br>
+<img src="https://github.com/DJshalani/DJsh_shortner/blob/master/Screenshot_20201108-140334.png">
 
 your link will be shortned
 
