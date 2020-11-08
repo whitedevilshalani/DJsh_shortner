@@ -8,9 +8,6 @@ $ ls<br>
 $ php shshotner.php <br>
 $ php shalani.php (link) <br>
 
-
-<img src="https://github.com/DJshalani/DJsh_shortner/blob/master/Screenshot_20201108-140334.png" style="margin: 10px auto;">
-
 your link will be shortned
 
 Conributers 
